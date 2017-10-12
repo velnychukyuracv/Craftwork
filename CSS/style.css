@@ -1,0 +1,976 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body{
+    font-family: Lato;
+    font-size: 16px;
+    color: #000;
+
+
+}
+.wrapper{
+    min-width: 375px;
+    width: 1170px;
+    margin: 0 auto;
+
+}
+/*header section start*/
+header{
+    width: 100%;
+    height: 1000px;
+    background-image: url("../img/mountans-header.png");
+}
+.navigation{
+    height: 89px;
+}
+.list_nav_menu{
+    float: left;
+    padding-top: 58px;
+}
+.list_nav_menu ul{
+    list-style-type: none;
+}
+.list_nav_menu ul li{
+    display: inline-block;
+}
+.list_nav_menu ul a{
+    text-decoration: none;
+    font-family: Lato;
+    color:  #26272d;
+    text-align: left;
+    padding: 15px;
+}
+.list_nav_menu ul li {
+    padding-left: 10px;
+ }
+ .navigation a img{
+     padding-top: 58px;
+     margin-left: 200px;
+     float: left;
+ }
+.navigation .list_nav_support{
+    padding-top: 58px;
+    float: right;
+}
+.navigation .list_nav_support ul{
+    list-style-type: none;
+}
+.navigation .list_nav_support ul li{
+    display: inline-block;
+}
+.navigation .list_nav_support ul a{
+    text-decoration: none;
+    font-family: Lato;
+    color:  #26272d;
+    text-align: left;
+    padding: 14px;
+}
+.navigation .list_nav_support ul a.Help{
+    color:  rgba(27, 28, 30, 0.4);
+}
+.navigation .list_nav_support ul li a.getapp{
+    width: 135px;
+    height: 42px;
+    background-color: #267df4;
+    border-radius: 21px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.navigation .list_nav_support ul li .getapp .fa-apple{
+    padding-right: 15px;
+}
+header h3{
+    font-family: Varela Round, sans-serif;
+    color:  #26272d;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;
+    padding-top: 125px;
+}
+header h4{
+    font-family: Lato;
+    color:  #8c8f94;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 42px;
+}
+header .video {
+    width: 205px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 22px;
+    border: 1px solid #dadddf;
+    text-decoration: none;
+    color: #26272d;
+    margin-left: 482px;
+    margin-top: 60px;
+    padding: 17px 40px;
+}
+ .fa-play:before{
+    padding-right: 15px;
+}
+header .iphone-header{
+    width: 370px;
+    height: 450px;
+    margin-left: 400px;
+    margin-top: 30px;
+    overflow: hidden
+}
+/*header section end*/
+
+
+/* section2 Article content start*/
+.sectionArticle{
+    width: 100%;
+    height: 600px;
+}
+.sectionArticle .leftLockContent{
+    width: 495px;
+    height: 315px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 122px;
+}
+.sectionArticle .leftLockContent img{
+    padding-bottom: 46px;
+}
+.sectionArticle .leftLockContent h3{
+    font-family: Lato;
+    color:  #26272d;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 34px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+.sectionArticle .leftLockContent h4, .sectionArticle .leftLockContent h5{
+     font-family: Lato;
+     color:  #8c8f94;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 26px;
+     text-align: left;
+ }
+.sectionArticle .leftLockContent h4{
+    padding-bottom: 36px;
+}
+
+.sectionArticle .rightClockContent{
+    width: 495px;
+    height: 315px;
+    float: right;
+    margin-top: 122px;
+    margin-right: 32px;
+}
+.sectionArticle .rightClockContent img{
+    margin-bottom: 46px;
+}
+.sectionArticle .rightClockContent h3{
+    font-family: Lato;
+    color:  #26272d;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 34px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.sectionArticle .rightClockContent h4, .sectionArticle .rightClockContent h5{
+    font-family: Lato;
+    color:  #8c8f94;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.sectionArticle .rightClockContent h4{
+    margin-bottom: 36px;
+}
+.sectionArticle hr{
+    width: 100%;
+    height: 1px;
+    background-color:  rgba(38, 39, 45, 0.05);
+    display: inline-block;
+    margin-top: 126px;
+}
+/* section2 Article content end*/
+
+
+/* section3 Protect content start*/
+.sectionProtect{
+    width: 100%;
+    height: 900px;
+}
+
+.sectionProtect .leftProtect{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.sectionProtect .leftProtect img{
+        display: inline-block;
+        margin-top: 80px;
+        overflow: hidden;
+        position: absolute;
+        right: 10px;
+}
+
+.sectionProtect .rightProtect{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.sectionProtect .rightProtect h3{
+    font-family: Varela Round, sans-serif;
+    color:  #26272d;
+    font-size: 42px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 52px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding: 227px 15px 73px 100px;
+}
+.sectionProtect .rightProtect h4, .sectionProtect .rightProtect h5 {
+    font-family: Lato;
+    color:  #8c8f94;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding: 0 15px 0 100px;
+}
+.sectionProtect .rightProtect h4{
+    padding-bottom: 40px;
+}
+.sectionProtect .rightProtect h5{
+    padding-bottom: 75px;
+}
+.sectionProtect .rightProtect .rightProtectButton{
+    padding-left: 100px;
+}
+.sectionProtect .rightProtect a{
+    width: 200px;
+    height: 42px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #267df4;
+    padding: 12px ;
+    margin-right: 20px;
+}
+.fa-arrow-right:before{
+      padding-left: 53px;
+}
+.sectionProtect .rightProtect a.learnMore{
+    width: 142px;
+    height: 42px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color:  #dadddf;
+    border-style: solid;
+    text-decoration: none;
+    color: #26272d;
+    background-color: #fff;
+}
+/* section3 Protect content end*/
+
+/* section4 World map content start*/
+.sectionWorldMap{
+    width: 100%;
+    height: 900px;
+}
+
+.sectionWorldMap .leftWorldMap{
+    width: 40%;
+    height: 100%;
+    float: left;
+
+}
+.sectionWorldMap .leftWorldMap  h3{
+    font-family: Varela Round, sans-serif;
+    color:  #26272d;
+    font-size: 42px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 52px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding-bottom: 68px;
+    padding-top: 218px;
+}
+.sectionWorldMap .leftWorldMap  h4,.sectionWorldMap .leftWorldMap  h5{
+    font-family: Lato;
+    color:  #8c8f94;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+.sectionWorldMap .leftWorldMap  h4{
+    padding-bottom: 37px;
+}
+.sectionWorldMap .leftWorldMap  h5{
+    padding-bottom: 70px;
+}
+.sectionWorldMap .leftWorldMap  h6{
+    font-family: Lato;
+    color:  #26272d;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 22px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.sectionWorldMap .leftWorldMap a img{
+    padding-right: 30px;
+}
+
+.sectionWorldMap .rightWorldMap{
+    width: 55%;
+    height: 694px;
+    float: right;
+    background-image: url("../img/World.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 206px;
+    margin-left: 5%;
+
+}
+/* section4 World map content end*/
+
+/* section5 Screen content start*/
+.sectionScreen{
+    background-color:  #f5f5f8;
+    width: 100%;
+    height: 1200px;
+}
+.sectionScreen h3{
+    font-family: Varela Round, sans-serif;
+    color:  #26272d;
+    font-size: 42px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 52px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    padding-top: 146px;
+}
+.sectionScreen hr{
+    width: 50px;
+    height: 1px;
+    border: none;
+    background-color:   #267df4;
+    margin-left: 560px;
+    display: inline-block;
+    margin-top: 48px;
+}
+.sectionScreen h4{
+    font-family: Lato;
+    color:  #8c8f94;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 22px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 44px;
+}
+.sectionScreen .screens{
+    width: 100%;
+    height: 753px;
+    margin-top: 46px;
+}
+.sectionScreen .screens .screen1{
+    box-shadow: 0px 10px 16px 0px rgba(61, 61, 62, 0.15);
+    width: 28px;
+    height: 568px;
+    background-image: url("../img/iphone-screen5.png");
+    float: left;
+    margin-top: 92.5px;
+}
+.sectionScreen .screens .screen2{
+    box-shadow: 0px 10px 16px 0px rgba(61, 61, 62, 0.15);
+    width: 320px;
+    height: 568px;
+    background-image: url("../img/iphone-screen4.png");
+    float: left;
+    margin-top: 92.5px;
+    margin-left: 28px;
+
+}
+.sectionScreen .screens .screen3{
+    width: 369px;
+    height: 753px;
+    background-image: url("../img/iphone-screen3.png");
+    float: left;
+    margin-left: 28px;
+}
+.sectionScreen .screens .screen4{
+    box-shadow: 0px 10px 16px 0px rgba(61, 61, 62, 0.15);
+    width: 320px;
+    height: 568px;
+    background-image: url("../img/iphone-screen2.png");
+    float: left;
+    margin-top: 92.5px;
+    margin-left: 28px;
+}
+.sectionScreen .screens .screen5{
+    box-shadow: 0px 10px 16px 0px rgba(61, 61, 62, 0.15);
+    width: 28px;
+    height: 568px;
+    background-image: url("../img/iphone-screen1.png");
+    float: right;
+    margin-top: 92.5px;
+}
+/* section5 Screen content end*/
+
+/* section6 Get iPhone content start*/
+.sectionGetIphone{
+    background-color:  #f5f5f8;
+    width: 100%;
+    height: 550px;
+}
+.sectionGetIphone .logo{
+    padding: 75px 0 38px 530px;
+    opacity: 0.3;
+}
+.sectionGetIphone h3{
+    font-family: Varela Round, sans-serif;
+    color:  #26272d;
+    font-size: 42px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 52px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+.sectionGetIphone form{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.sectionGetIphone input[type="email"]{
+    outline: none;
+    border: 1px solid #222328;
+    opacity: 0.2;
+    padding: 5px 100px 5px 30px;
+    display: block;
+    width: 500px;;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 48px;
+    margin-left: 335px;
+}
+
+.sectionGetIphone button[type="send"]{
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    z-index: 9;
+    outline: none;
+    border: none;
+    display: inline-block;
+    background-color:  #6fc754;
+    color: #fff;
+    width: 164px;
+    height: 42px;
+    border-radius: 25px;
+    margin-top: 45px;
+}
+.sectionGetIphone button[type="send"]:hover{
+    background: #1e8b0c;
+}
+.sectionGetIphone h4{
+    font-family: Lato;
+    color:   rgba(58, 61, 75, 0.3);
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 67px;
+}
+.sectionGetIphone a{
+    margin-left: 480px;
+    margin-top: 24px;
+    display: inline-block;
+
+}
+/* section6 Get iPhone content end*/
+
+/* section7 Reviews start*/
+.reviews{
+    width: 100%;
+    height: 750px;
+}
+.reviews img{
+    margin-left: 519px;
+    margin-top: 133px;
+}
+.reviews h3{
+    font-family: Lato;
+    color:  #26272d;
+    font-size: 32px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 38px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 60px;
+}
+.reviews p{
+    font-family: Lato;
+    color:  #8c8f94;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 55px;
+}
+.reviews .fa-star{
+    color:  #f2bc3b;
+    padding-left: 8px;
+}
+.reviews .stars{
+    margin-left: 515px;
+    margin-top: 30px;
+}
+.reviews h4{
+    font-family: Lato;
+    color:  #26272d;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 22px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+/* section7 Reviews end*/
+
+/* section8 buyPlan start*/
+.buyPlan{
+    width: 100%;
+    height: 900px;
+    background-color:  #f4f4f5;
+}
+
+.buyPlan .buyPlanInfo{
+    width: 370px;
+    height: 100%;
+    float: left;
+}
+.buyPlan .buyPlanInfo h3{
+    font-family: Varela Round;
+    color:  #26272d;
+    font-size: 42px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 52px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding-top: 207px;
+}
+.buyPlan .buyPlanInfo h4{
+    font-family: Lato;
+    color:  #26272d;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 22px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+.buyPlan .buyPlanInfo h5{
+    font-family: Lato;
+    color:  #8c8f94;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding-top: 148px;
+}
+.buyPlan .buyPlanInfo p{
+    font-family: Lato;
+    color:  #8c8f94;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding-top: 45px;
+}
+.buyPlan .buyPlanInfo p a{
+    font-family: Lato;
+    color:  #267df4;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-decoration: underline;
+    text-align: left;
+}
+
+.buyPlan .buyPlanStart{
+    background-color:  #ebebed;
+    border-radius: 10px;
+    width: 320px;
+    height: 510px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 180px;
+    -webkit-transform: scale(1,1) ;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+.buyPlan .buyPlanStart:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2) ;
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+    background-color:  #fff;
+    position: relative;
+    z-index: 9;
+}
+.buyPlan  h3 {
+    font-family: Lato;
+    color:  #26272d;
+    font-size: 32px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 38px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    padding-top: 43px;
+}
+.buyPlan  p.buy{
+    width: 63px;
+    height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 14px;
+    border: 1px solid  #dbdcdc;
+    text-decoration: none;
+    color: #26272d;
+    background-color: #fff;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 22px;/* Приближение из-за подстановки шрифтов */
+    margin-top: 30px;
+    margin-left: 130px;
+    padding-top: 2px;
+}
+.buyPlan  h4{
+    font-family: Lato;
+    color:  #8c8f94;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    padding-top: 56px;
+}
+.buyPlan .buyPlanStart  h5,.buyPlan .buyPlanPro  h5{
+    font-family: Lato;
+    color:  #26292c;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding-top: 52px;
+    padding-left: 87px;
+}
+.buyPlan   .fa-check{
+    color: #6fc754;
+    padding-right: 10px;
+}
+.buyPlan  h6{
+    font-family: Lato;
+    color:  #26292c;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding-top: 27px;
+    padding-left: 46px;
+}
+.buyPlan .buyPlanPro p.chek{
+    font-family: Lato;
+    color:  #26292c;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding-top: 27px;
+    padding-left: 87px;
+}
+
+.buyPlan .buyPlanStart a.started{
+    width: 212px;
+    height: 42px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 21px;
+    text-decoration: none;
+    background-color: #267df4;
+    padding-top: 10px;
+    font-family: Lato;
+    color:  #ffffff;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    margin-top: 80px;
+    margin-left: 64px;
+}
+
+.buyPlan .buyPlanPro{
+    background-color:  #ebebed;
+    border-radius: 10px;
+    width: 320px;
+    height: 510px;
+    float: right;
+    margin-top: 180px;
+    margin-right: 40px;
+    -webkit-transform: scale(1,1) ;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+.buyPlan .buyPlanPro:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2) ;
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+    background-color:  #fff;
+    position: relative;
+    z-index: 9;
+}
+
+.buyPlan .buyPlanPro a.Pro{
+    width: 212px;
+    height: 42px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 21px;
+    border: 1px solid  #267df4;;
+    text-decoration: none;
+    padding-top: 10px;
+    font-family: Lato;
+    color:   #267df4;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 64px;
+}
+.buyPlan .buyPlanPro a.Pro:hover,.buyPlan .buyPlanStart a.started:hover{
+    background-color: #1e8b0c;
+}
+/* section8 buyPlan end*/
+
+/* section9 Subscribe start*/
+.Subscribe{
+    background-color:  #ffffff;
+    width: 100%;
+    height: 350px;
+}
+.Subscribe h3{
+    font-family: Varela Round, sans-serif;
+    color:  #26292c;
+    font-size: 42px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 52px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 92px;
+}
+.Subscribe form{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.Subscribe input[type="email"]{
+    outline: none;
+    border: 1px solid #26292c;
+    opacity: 0.2;
+    padding: 5px 100px 5px 30px;
+    display: block;
+    width: 560px;;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 48px;
+    margin-left: 305px;
+}
+
+.Subscribe button[type="send"]{
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    z-index: 9;
+    outline: none;
+    border: none;
+    display: inline-block;
+    background-color:  #6fc754;
+    color: #fff;
+    width: 134px;
+    height: 42px;
+    border-radius: 25px;
+    margin-top: 45px;
+}
+.Subscribe button[type="send"]:hover{
+    background: #1e8b0c;
+}
+.Subscribe h4{
+    font-family: Lato;
+    color:   #8c8f94;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+.Subscribe hr{
+    width: 100%;
+    height: 1px;
+    background-color:  rgba(38, 39, 45, 0.05);
+    margin-top: 85px;
+}
+/* section9 Subscribe end*/
+
+/* Footer section start*/
+footer{
+    width: 100%;
+    height: 550px;
+}
+
+footer .topSection{
+    width: 100%;
+    height: 465px;
+}
+footer .topSection .topSectionInfo{
+    width: 270px;
+    height: 100%;
+    float: left;
+}
+footer .topSection .topSectionInfo  .topSectionInfoLogo{
+    padding-top: 90px;
+}
+footer .topSection .topSectionInfo  p{
+    padding-top: 34px;
+    font-family: Lato;
+    color:  #8c8f94;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+footer .topSection .topSectionInfo  .topSectionInfoAppStore{
+    padding-top: 30px;
+}
+footer .topSection .topSectionInfo  .socialNetwork{
+    padding-top: 40px;
+}
+footer .topSection .topSectionInfo  .socialNetwork .fa-twitter, footer .topSection .topSectionInfo  .socialNetwork .fa-facebook, footer .topSection .topSectionInfo  .socialNetwork .fa-google-plus, footer .topSection .topSectionInfo  .socialNetwork .fa-tumblr, footer .topSection .topSectionInfo  .socialNetwork .fa-pinterest-p, footer .topSection .topSectionInfo  .socialNetwork .fa-linkedin{
+    color: #bdbec0;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+footer .topSection .topSectionLearMore{
+    width: 108px;
+    height: 100%;
+    float: left;
+    margin-left: 330px;
+}
+footer .topSection  h3{
+    font-family: Lato;
+    color:  #26272d;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 22px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 90px;
+}
+footer .topSection  ul{
+    list-style-type: none;
+}
+footer .topSection  ul li a{
+    text-decoration: none;
+    font-family: Lato;
+    color:  #8c8f94;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 36px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+}
+footer .topSection .topSectionAboutUs{
+    width: 140px;
+    height: 100%;
+    float: left;
+    margin-left: 100px;
+}
+footer .topSection .topSectionSupport {
+    width: 80px;
+    height: 100%;
+    float: left;
+    margin-left: 68px;
+}
+
+footer  hr{
+    width: 100%;
+    height: 1px;
+    background-color:  rgba(38, 39, 45, 0.05);
+}
+
+footer .bottomSection{
+    width: 100%;
+    height: 85px;
+}
+footer .bottomSection .bottomSectionLeft{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+footer .bottomSection .bottomSectionLeft p{
+    font-family: Lato;
+    color:  #8c8f94;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    white-space: nowrap;
+    padding-top: 35px;
+}
+footer .bottomSection .bottomSectionLeft p a{
+    font-family: Lato;
+    color:  #3b55e6;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-decoration: underline;
+    text-align: center;
+}
+footer .bottomSection .bottomSectionRight{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+footer .bottomSection .bottomSectionRight h4{
+    font-family: Lato;
+    color:  #26272d;
+    font-size: 9px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 22px;/* Приближение из-за подстановки шрифтов */
+    text-transform: uppercase;
+    float: left;
+    padding-top: 35px;
+    display: inline-block;
+    padding-left: 365px;
+}
+footer .bottomSection .bottomSectionRight  img{
+    float: right;
+    display: inline-block;
+    padding-top: 25px;
+}
+/* Footer section end*/
