@@ -14,19 +14,49 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
  </head>
  <body>
-   <div class="wrapper">
+
        <!--Header-->
       <header>
+          <!--Navigation out menu-->
+          <div class="navigation_out_menu" id="outMenu">
+              <a href="#"> <img src="img/logo-white.png" alt="Logo"> </a>
+              <nav class="list_out_menu">
+                  <ul>
+                      <li><a href="#">Tour</a></li>
+                      <li><a href="#">Features</a></li>
+                      <li><a href="#">Pricing</a></li>
+                      <li><a href="#">Help</a></li>
+                      <li><a href="#">Contacts</a></li>
+                      <li >
+                          <a href="#" class="getapp"> <i class="fa fa-apple" aria-hidden="true"></i>Get App</a>
+                      </li>
+                  </ul>
+              </nav>
+              <div class="list_out_menu_footer">
+                 <h6> Made with love by  <a href="http://getcraftwork.com"> craft work </a> </h6>
+                 <h6> Developed by  <a href="#"> rui bogas </a> </h6>
+                 <div class="socialNetwork">
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+              </div>
+          </div>
+          <div class="wrapper">
           <!--Navigation-->
-          <div class="navigation">
+          <div id="navigation">
               <nav class="list_nav_menu">
                   <ul>
-                      <a href="#"> <i class="fa fa-bars" aria-hidden="true"></i> </a>
+                     <a href="#" id="buttonNavigation"> <i class="fa fa-bars" aria-hidden="true"></i> </a>
                     <li><a href="#">Tour</a></li>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Pricing</a></li>
                   </ul>
               </nav>
+
               <!--Logo-->
               <a href="#"><img src="img/Logo.png" alt="Logo"> </a>
               <!--Navigation-->
@@ -52,9 +82,10 @@
           <div class="iphone-header" >
               <img src="img/iphone-header.png" alt="" >
           </div>
+         </div>
       </header>
-
-       <!--Article content-->
+  <div class="wrapper">
+      <!--Article content-->
       <div class="sectionArticle">
              <!--Lock content-->
              <div class="leftLockContent">
@@ -105,9 +136,11 @@
             </div>
            <div class="rightWorldMap">  </div>
        </div>
+      </div>
 
        <!--Screen content-->
        <div class="sectionScreen">
+         <div class="wrapper">
            <h3> Beautiful Interface </h3>
            <hr>
            <h4>Landing Screen</h4>
@@ -118,10 +151,12 @@
                 <div class="screen4"> </div>
                 <div class="screen5"> </div>
            </div>
+          </div>
        </div>
 
        <!--Get iPhone content-->
        <div class="sectionGetIphone">
+           <div class="wrapper">
            <div class="logo">
                <img src="img/Logo.png" alt="">
            </div>
@@ -133,7 +168,9 @@
            <h4>or Download From</h4>
            <a href="#" > <img src="img/AppStore.png" alt=""></a>
        </div>
+           </div>
 
+       <div class="wrapper">
        <!--Reviews content-->
        <div class="reviews">
            <img src="img/face1.png" alt="portret">
@@ -150,12 +187,18 @@
            </div>
            <h4>Cameron Dowman</h4>
        </div>
+           </div>
 
        <!--Buy plan content-->
        <div class="buyPlan">
+           <div class="wrapper">
               <div class="buyPlanInfo">
                   <h3>Choose your perfect plan</h3>
                   <h4>You are</h4>
+                  <div class="switchButton">
+                      <button type="button" class="buttonIndividual"> individual </button>
+                      <button type="button" class="buttonCompany"> company </button>
+                  </div>
                   <h5>Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you.</h5>
                   <p> Have a bigger team?
                       <a href="#"> Let‘s talk </a>
@@ -180,8 +223,10 @@
                <p class="chek"><i class="fa fa-check" aria-hidden="true"></i>Personal Assistant</p>
                <a href="#" class="Pro"> Make me a Pro  </a>
            </div>
+               </div>
        </div>
 
+           <div class="wrapper">
        <!--Subscribe content-->
        <div class="Subscribe">
            <h3>Subscribe our newsletters</h3>
@@ -258,11 +303,9 @@
                </div>
            </div>
        </footer>
-       <script src='https://raw.githubusercontent.com/JohnBlazek/codepen-resources/master/3d-carousel/js/libs.min.js'></script>
-       <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
-       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 
-       <script  src="js/index.js.js"></script>
+       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+       <script  src="js/index.js"></script>
    </div>
  </body>
 </html>

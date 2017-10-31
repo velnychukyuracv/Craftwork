@@ -8,78 +8,170 @@ body{
     font-size: 16px;
     color: #000;
 
-
 }
 .wrapper{
     min-width: 375px;
     width: 1170px;
     margin: 0 auto;
-
 }
+
+
 /*header section start*/
 header{
     width: 100%;
     height: 1000px;
     background-image: url("../img/mountans-header.png");
+    position: relative;
 }
-.navigation{
-    height: 89px;
+
+.navigation_out_menu{
+    width: 350px;
+    height: 100%;
+    background-color: #26272d;
+    position: absolute;
+    padding: 40px;
+    z-index: 20;
+    display: none;
 }
-.list_nav_menu{
-    float: left;
-    padding-top: 58px;
+.navigation_out_menu img{
+    padding: 11px;
 }
-.list_nav_menu ul{
+.navigation_out_menu .list_out_menu{
+    margin-top: 40px;
+}
+.navigation_out_menu .list_out_menu li{
+    margin: 10px 0;
     list-style-type: none;
 }
-.list_nav_menu ul li{
-    display: inline-block;
-}
-.list_nav_menu ul a{
+.navigation_out_menu .list_out_menu li a{
     text-decoration: none;
-    font-family: Lato;
-    color:  #26272d;
-    text-align: left;
-    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-family: VarelaRound, sans-serif;
 }
-.list_nav_menu ul li {
-    padding-left: 10px;
- }
- .navigation a img{
-     padding-top: 58px;
-     margin-left: 200px;
-     float: left;
- }
-.navigation .list_nav_support{
-    padding-top: 58px;
-    float: right;
+.navigation_out_menu .list_out_menu li a:hover{
+    color: #267df4;
 }
-.navigation .list_nav_support ul{
-    list-style-type: none;
+
+.navigation_out_menu .list_out_menu li:last-child{
+    margin: 30px 0;
 }
-.navigation .list_nav_support ul li{
-    display: inline-block;
-}
-.navigation .list_nav_support ul a{
-    text-decoration: none;
-    font-family: Lato;
-    color:  #26272d;
-    text-align: left;
-    padding: 14px;
-}
-.navigation .list_nav_support ul a.Help{
-    color:  rgba(27, 28, 30, 0.4);
-}
-.navigation .list_nav_support ul li a.getapp{
+.navigation_out_menu .list_out_menu li a.getapp{
     width: 135px;
     height: 42px;
     background-color: #267df4;
     border-radius: 21px;
     text-align: center;
     font-size: 16px;
+    font-weight: 400;
     color: #fff;
+    padding: 12px;
 }
-.navigation .list_nav_support ul li .getapp .fa-apple{
+.navigation_out_menu .list_out_menu li a.getapp .fa-apple{
+    padding-right: 15px;
+}
+.navigation_out_menu .list_out_menu li a.getapp:hover{
+    background-color: #26272d;
+    color:#fff;
+    border: 1px solid #fff;
+}
+.navigation_out_menu  .list_out_menu_footer{
+    margin-top: 200px;
+}
+.navigation_out_menu .list_out_menu_footer h6{
+    font-size: 16px;
+    color: #fff;
+    font-family: VarelaRound, sans-serif;
+    font-weight: 400;
+    padding: 5px 0;
+}
+.navigation_out_menu .list_out_menu_footer h6 a{
+    color: #267df4;
+    text-transform: capitalize;
+}
+.navigation_out_menu .list_out_menu_footer .socialNetwork{
+    margin-top: 18px;
+}
+.navigation_out_menu .list_out_menu_footer  .socialNetwork .fa-twitter, .navigation_out_menu .list_out_menu_footer .socialNetwork .fa-facebook,.navigation_out_menu .list_out_menu_footer  .socialNetwork .fa-google-plus,.navigation_out_menu .list_out_menu_footer  .socialNetwork .fa-tumblr, .navigation_out_menu .list_out_menu_footer .socialNetwork .fa-pinterest-p, .navigation_out_menu .list_out_menu_footer .socialNetwork .fa-linkedin{
+    color: #bdbec0;
+    display: inline-block;
+    margin-right: 25px;
+}
+.navigation_out_menu .list_out_menu_footer  .socialNetwork .fa-twitter:hover, .navigation_out_menu .list_out_menu_footer .socialNetwork .fa-facebook:hover, .navigation_out_menu .list_out_menu_footer .socialNetwork .fa-google-plus:hover, .navigation_out_menu .list_out_menu_footer .socialNetwork .fa-tumblr:hover, .navigation_out_menu .list_out_menu_footer .socialNetwork .fa-pinterest-p:hover, .navigation_out_menu .list_out_menu_footer .socialNetwork .fa-linkedin:hover{
+    color: #267df4;
+}
+
+
+#navigation{
+    height: 95px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+#navigation .list_nav_menu{
+    float: left;
+    padding-top: 55px;
+    padding-left: 100px;
+}
+#navigation .list_nav_menu ul{
+    list-style-type: none;
+}
+#navigation .list_nav_menu ul li{
+    display: inline-block;
+}
+#navigation .list_nav_menu ul a{
+    text-decoration: none;
+    font-family: Lato;
+    color:  #26272d;
+    text-align: left;
+    padding: 15px;
+}
+#navigation .list_nav_menu ul li {
+    padding-left: 10px;
+ }
+#navigation  a img{
+     padding-top: 58px;
+     margin-left: 200px;
+     margin-right: 200px;
+     float: left;
+ }
+#navigation .list_nav_support{
+    padding-top: 55px;
+}
+#navigation .list_nav_support ul{
+    list-style-type: none;
+}
+#navigation .list_nav_support ul li{
+    display: inline-block;
+}
+#navigation .list_nav_support ul a{
+    text-decoration: none;
+    font-family: Lato;
+    color:  #26272d;
+    text-align: left;
+    padding: 20px;
+}
+#navigation .list_nav_support ul a.Help{
+    color:  rgba(27, 28, 30, 0.4);
+}
+#navigation .list_nav_menu ul  a:hover, #navigation .list_nav_support ul li a:hover{
+    color: #337ab7 ;
+}
+#navigation .list_nav_support ul li>a.getapp{
+    width: 135px;
+    height: 42px;
+    background-color: #267df4;
+    border-radius: 21px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 12px;
+}
+#navigation.list_nav_support ul li .getapp .fa-apple{
     padding-right: 15px;
 }
 header h3{
@@ -89,7 +181,7 @@ header h3{
     font-weight: 400;
     line-height: 72px;
     text-align: center;
-    padding-top: 125px;
+    padding-top: 212px;
 }
 header h4{
     font-family: Lato;
@@ -344,6 +436,7 @@ header .iphone-header{
     margin-top: 206px;
     margin-left: 5%;
 
+
 }
 /* section4 World map content end*/
 
@@ -393,6 +486,7 @@ header .iphone-header{
     background-image: url("../img/iphone-screen5.png");
     float: left;
     margin-top: 92.5px;
+
 }
 .sectionScreen .screens .screen2{
     box-shadow: 0px 10px 16px 0px rgba(61, 61, 62, 0.15);
@@ -554,7 +648,6 @@ header .iphone-header{
     height: 900px;
     background-color:  #f4f4f5;
 }
-
 .buyPlan .buyPlanInfo{
     width: 370px;
     height: 100%;
@@ -572,12 +665,62 @@ header .iphone-header{
 .buyPlan .buyPlanInfo h4{
     font-family: Lato;
     color:  #26272d;
-    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-size: 12px;
     font-weight: 700;
-    line-height: 22px;/* Приближение из-за подстановки шрифтов */
+    line-height: 22px;
     text-align: left;
     text-transform: uppercase;
     padding-top: 70px;
+}
+.buyPlan .buyPlanInfo .switchButton {
+    display: inline-block;
+    border: 1px solid #cbcccd;
+    white-space:nowrap;
+    border-radius: 25px;
+    height: 50px;
+}
+.buyPlan .buyPlanInfo .switchButton  .buttonIndividual{
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    background-color: #fff;
+    text-transform: capitalize;
+    padding: 14px 28px;
+    font-family: Lato;
+    color:  #26292c;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buyPlan .buyPlanInfo .switchButton  .buttonCompany{
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    background-color: #f4f4f5;
+    text-transform: capitalize;
+    padding: 14px 28px;
+    font-family: Lato;
+    color:  #cbcccd;
+    font-size: 16px;
+    font-weight: 400;
+}
+.buyPlan .buyPlanInfo .switchButton  button:active, .buyPlan .buyPlanInfo .switchButton  button:hover, .buyPlan .buyPlanInfo .switchButton  button:focus {
+    outline: 0;
+    color: #267df4;
+}
+.buyPlan .buyPlanInfo .switchButton>h6{
+    color: #cbcccd;
+    text-align: left;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+    margin-left: 150px;
+    margin-right: 30px;
+    text-align: center;
 }
 .buyPlan .buyPlanInfo h5{
     font-family: Lato;
@@ -791,8 +934,7 @@ header .iphone-header{
 }
 .Subscribe input[type="email"]{
     outline: none;
-    border: 1px solid #26292c;
-    opacity: 0.2;
+    border: 1px solid #cbcbce;
     padding: 5px 100px 5px 30px;
     display: block;
     width: 560px;;
@@ -841,7 +983,6 @@ footer{
     width: 100%;
     height: 550px;
 }
-
 footer .topSection{
     width: 100%;
     height: 465px;
@@ -875,6 +1016,9 @@ footer .topSection .topSectionInfo  .socialNetwork .fa-twitter, footer .topSecti
     display: inline-block;
     margin-right: 5px;
 }
+footer .topSection .topSectionInfo  .socialNetwork .fa-twitter:hover, footer .topSection .topSectionInfo  .socialNetwork .fa-facebook:hover, footer .topSection .topSectionInfo  .socialNetwork .fa-google-plus:hover, footer .topSection .topSectionInfo  .socialNetwork .fa-tumblr:hover, footer .topSection .topSectionInfo  .socialNetwork .fa-pinterest-p:hover, footer .topSection .topSectionInfo  .socialNetwork .fa-linkedin:hover{
+    color: black;
+}
 footer .topSection .topSectionLearMore{
     width: 108px;
     height: 100%;
@@ -904,6 +1048,9 @@ footer .topSection  ul li a{
     text-align: left;
     padding-top: 10px;
     display: inline-block;
+}
+footer .topSection  ul li a:hover{
+    color: #26272d;
 }
 footer .topSection .topSectionAboutUs{
     width: 140px;
