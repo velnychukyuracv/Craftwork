@@ -28,10 +28,11 @@ header{
     width: 350px;
     height: 100%;
     background-color: #26272d;
-    position: absolute;
+    position: fixed;
     padding: 40px;
-    z-index: 20;
+
     display: none;
+    z-index: 250;
 }
 .navigation_out_menu img{
     padding: 11px;
@@ -182,6 +183,7 @@ header h3{
     line-height: 72px;
     text-align: center;
     padding-top: 212px;
+    margin-top: 0;
 }
 header h4{
     font-family: Lato;
@@ -212,7 +214,7 @@ header .iphone-header{
     width: 370px;
     height: 450px;
     margin-left: 400px;
-    margin-top: 30px;
+    margin-top: 10px;
     overflow: hidden
 }
 /*header section end*/
@@ -686,7 +688,7 @@ header .iphone-header{
     text-decoration: none;
     background-color: #fff;
     text-transform: capitalize;
-    padding: 14px 28px;
+    padding: 12px 28px;
     font-family: Lato;
     color:  #26292c;
     font-size: 16px;
@@ -700,7 +702,7 @@ header .iphone-header{
     text-decoration: none;
     background-color: #f4f4f5;
     text-transform: capitalize;
-    padding: 14px 28px;
+    padding: 12px 28px;
     font-family: Lato;
     color:  #cbcccd;
     font-size: 16px;
@@ -712,7 +714,6 @@ header .iphone-header{
 }
 .buyPlan .buyPlanInfo .switchButton>h6{
     color: #cbcccd;
-    text-align: left;
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;

@@ -1,3 +1,5 @@
+'use strict';
+
 // Scroll Events
     $(document).ready(function(){
         var HeaderTop = $('#navigation').offset().top;
@@ -18,4 +20,17 @@
         });
     });
 
+
+(function() {
+    var body = document.body;
+    var burgerMenu = document.getElementsByClassName('buttonNavigation')[0];
+    var burgerContain = document.getElementsByClassName('outMenu')[0];
+
+
+    burgerMenu.addEventListener('click', function toggleClasses() {
+        [body, burgerContain].forEach(function (el) {
+            el.classList.toggle('open');
+        });
+    }, false);
+})();
 
